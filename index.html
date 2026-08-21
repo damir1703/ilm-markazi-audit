@@ -1,0 +1,1026 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Аудит рекламного кабинета Ilm Markazi за 22.05—21.08.2026: куда уходит 60% бюджета, почему просел август и план работ по этапам.">
+<meta property="og:title" content="Аудит кабинета Ilm Markazi">
+<meta property="og:description" content="27 487 лидов, 900 продаж, $25 805 расхода. Разбор за 92 дня.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%93%89</text></svg>">
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0}
+  img,svg{vertical-align:middle}
+  button{font:inherit}
+</style>
+<title>Аудит кабинета Ilm Markazi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+</head>
+<body>
+<style>
+:root{
+  color-scheme: light;
+  --ground:#EFF2F6;
+  --surface:#FFFFFF;
+  --surface-2:#F7F9FB;
+  --line:#DCE3EB;
+  --line-soft:#E8EDF3;
+  --ink:#0E1620;
+  --ink-2:#59636F;
+  --ink-3:#8894A1;
+  --cobalt:#1F5FBF;
+  --ochre:#C7642A;
+  --teal:#00968A;
+  --garnet:#B03A48;
+  --deep:#0C1219;
+  --deep-2:#141D27;
+  --deep-ink:#E8EEF4;
+  --deep-ink-2:#93A1AE;
+  --deep-line:#22303D;
+  --shadow:0 1px 2px rgba(14,22,32,.05), 0 8px 24px -12px rgba(14,22,32,.18);
+  --radius:4px;
+  --maxw:1120px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --ground:#0C1219;
+    --surface:#141D27;
+    --surface-2:#101922;
+    --line:#22303D;
+    --line-soft:#1B2833;
+    --ink:#E8EEF4;
+    --ink-2:#93A1AE;
+    --ink-3:#6F7E8C;
+    --cobalt:#4A8FE0;
+    --ochre:#CE7434;
+    --teal:#0F9E92;
+    --garnet:#DD6A72;
+    --deep:#060A0F;
+    --deep-2:#0F1720;
+    --deep-line:#1E2A35;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#0C1219;
+  --surface:#141D27;
+  --surface-2:#101922;
+  --line:#22303D;
+  --line-soft:#1B2833;
+  --ink:#E8EEF4;
+  --ink-2:#93A1AE;
+  --ink-3:#6F7E8C;
+  --cobalt:#4A8FE0;
+  --ochre:#CE7434;
+  --teal:#0F9E92;
+  --garnet:#DD6A72;
+  --deep:#060A0F;
+  --deep-2:#0F1720;
+  --deep-line:#1E2A35;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:"Golos Text","Helvetica Neue",Arial,sans-serif;
+  font-size:16px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:"Unbounded","Golos Text",sans-serif;font-weight:600;text-wrap:balance;margin:0;line-height:1.14;letter-spacing:-.02em}
+p{margin:0}
+a{color:var(--cobalt)}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.num{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;font-weight:500}
+
+/* ── progress rail ─────────────────────────────── */
+#rail{position:fixed;top:0;left:0;height:2px;width:100%;z-index:60;background:transparent}
+#rail span{display:block;height:100%;width:0;background:var(--cobalt);transition:width .1s linear}
+
+/* ── nav ───────────────────────────────────────── */
+nav{
+  position:sticky;top:0;z-index:50;
+  background:color-mix(in srgb, var(--ground) 88%, transparent);
+  backdrop-filter:blur(12px) saturate(1.4);
+  border-bottom:1px solid var(--line-soft);
+}
+.nav-in{max-width:var(--maxw);margin:0 auto;padding:10px 24px;display:flex;align-items:center;gap:22px;overflow-x:auto;scrollbar-width:none}
+.nav-in::-webkit-scrollbar{display:none}
+.nav-mark{font-family:"Unbounded",sans-serif;font-weight:700;font-size:13px;letter-spacing:-.01em;white-space:nowrap;color:var(--ink)}
+.nav-mark em{font-style:normal;color:var(--cobalt)}
+.nav-in a{
+  font-size:12.5px;color:var(--ink-2);text-decoration:none;white-space:nowrap;
+  padding:4px 0;border-bottom:1.5px solid transparent;transition:color .2s, border-color .2s;
+}
+.nav-in a:hover,.nav-in a.on{color:var(--ink);border-color:var(--cobalt)}
+.nav-in a:focus-visible{outline:2px solid var(--cobalt);outline-offset:3px;border-radius:2px}
+
+/* ── layout ────────────────────────────────────── */
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+section{padding:84px 0;border-top:1px solid var(--line-soft)}
+section:first-of-type{border-top:none}
+.eyebrow{
+  font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+  display:flex;align-items:center;gap:10px;margin-bottom:18px;
+}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+.lede{font-size:19px;line-height:1.6;color:var(--ink-2);max-width:64ch;margin-top:18px}
+.note{font-size:13.5px;color:var(--ink-3);max-width:70ch;line-height:1.55}
+
+/* ── hero ──────────────────────────────────────── */
+header.hero{
+  background:var(--deep);
+  color:var(--deep-ink);
+  padding:76px 0 0;
+  position:relative;overflow:hidden;
+}
+.hero-grid{
+  position:absolute;inset:0;opacity:.5;
+  background-image:linear-gradient(var(--deep-line) 1px, transparent 1px);
+  background-size:100% 34px;
+  mask-image:linear-gradient(to bottom, rgba(0,0,0,.7), transparent 72%);
+  -webkit-mask-image:linear-gradient(to bottom, rgba(0,0,0,.7), transparent 72%);
+}
+.hero-in{position:relative;max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.hero-tag{
+  font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:#6F8296;display:flex;gap:14px;align-items:center;flex-wrap:wrap;
+}
+.hero-tag b{color:#4A8FE0;font-weight:500}
+h1{font-size:clamp(34px,6.2vw,68px);margin:26px 0 0;color:#FFF;letter-spacing:-.035em;line-height:1.02}
+h1 .thin{font-weight:500;color:#8FA3B6}
+.hero-sub{max-width:56ch;margin-top:22px;color:#A9BACB;font-size:17.5px;line-height:1.6}
+.hero-leak{
+  margin-top:52px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:end;
+  padding-bottom:44px;
+}
+.leak-fig{font-family:"JetBrains Mono",monospace;font-weight:700;font-variant-numeric:tabular-nums;
+  font-size:clamp(52px,11vw,116px);line-height:.86;color:#DD6A72;letter-spacing:-.05em}
+.leak-cap{color:#A9BACB;font-size:14.5px;line-height:1.5;max-width:34ch;padding-bottom:10px}
+.leak-cap b{color:#FFF;font-weight:500}
+.hero-strip{
+  position:relative;border-top:1px solid var(--deep-line);
+  background:rgba(255,255,255,.015);
+}
+.strip-in{max-width:var(--maxw);margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(4,1fr)}
+.strip-cell{padding:22px 22px 22px 0;border-right:1px solid var(--deep-line)}
+.strip-cell:last-child{border-right:none}
+.strip-cell dt{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:#6F8296;margin-bottom:7px}
+.strip-cell dd{margin:0;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:24px;color:#FFF;font-variant-numeric:tabular-nums}
+.strip-cell dd small{font-size:13px;color:#8FA3B6;font-weight:400;margin-left:6px}
+
+/* ── stat tiles ────────────────────────────────── */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:36px}
+.tile{background:var(--surface);padding:22px 20px}
+.tile dt{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:9px}
+.tile dd{margin:0;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:27px;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums;color:var(--ink)}
+.tile .sub{font-size:12.5px;color:var(--ink-2);margin-top:6px;line-height:1.45;font-family:"Golos Text",sans-serif}
+.tile.good dd{color:var(--teal)}
+.tile.bad dd{color:var(--garnet)}
+
+/* ── cards & charts ────────────────────────────── */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 26px 20px;box-shadow:var(--shadow);margin-top:32px}
+.card-head{display:flex;justify-content:space-between;align-items:baseline;gap:18px;flex-wrap:wrap;margin-bottom:6px}
+.card-title{font-family:"Unbounded",sans-serif;font-size:15px;font-weight:600;letter-spacing:-.01em}
+.card-sub{font-size:13px;color:var(--ink-3);max-width:60ch;margin-top:4px}
+.chart-scroll{overflow-x:auto;margin:0 -6px;padding:0 6px}
+svg{display:block;max-width:100%}
+.grid-line{stroke:var(--line-soft);stroke-width:1}
+.axis-t{font-family:"JetBrains Mono",monospace;font-size:10.5px;fill:var(--ink-3)}
+.axis-t.strong{fill:var(--ink-2)}
+.bar-lbl{font-family:"JetBrains Mono",monospace;font-size:11px;fill:var(--ink);font-weight:500}
+.row-lbl{font-family:"Golos Text",sans-serif;font-size:12.5px;fill:var(--ink-2)}
+
+.legend{display:flex;gap:18px;flex-wrap:wrap;margin:14px 0 2px;font-size:12.5px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.swatch{width:11px;height:11px;border-radius:2px;flex:none}
+
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface-2)}
+.seg button{
+  font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:.04em;
+  background:transparent;border:none;color:var(--ink-2);padding:7px 13px;cursor:pointer;
+  border-right:1px solid var(--line);transition:background .18s,color .18s;
+}
+.seg button:last-child{border-right:none}
+.seg button[aria-pressed="true"]{background:var(--cobalt);color:#fff}
+.seg button:focus-visible{outline:2px solid var(--cobalt);outline-offset:-2px}
+
+.tip{
+  position:fixed;pointer-events:none;z-index:80;opacity:0;transform:translateY(4px);
+  transition:opacity .12s ease, transform .12s ease;
+  background:var(--deep);color:#fff;border:1px solid var(--deep-line);border-radius:var(--radius);
+  padding:9px 12px;font-family:"JetBrains Mono",monospace;font-size:11.5px;line-height:1.65;
+  box-shadow:0 12px 30px -10px rgba(0,0,0,.5);white-space:nowrap;
+}
+.tip.on{opacity:1;transform:translateY(0)}
+.tip b{color:#fff;font-weight:700;display:block;margin-bottom:3px;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.tip i{font-style:normal;color:#8FA3B6}
+
+/* ── tables ────────────────────────────────────── */
+.tbl-wrap{overflow-x:auto;margin-top:22px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:640px}
+th{
+  font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);text-align:right;padding:13px 14px;border-bottom:1px solid var(--line);font-weight:500;
+  background:var(--surface-2);position:sticky;top:0;
+}
+th:first-child,td:first-child{text-align:left}
+td{padding:11px 14px;text-align:right;border-bottom:1px solid var(--line-soft);
+  font-variant-numeric:tabular-nums;font-family:"JetBrains Mono",monospace;color:var(--ink)}
+td:first-child{font-family:"Golos Text",sans-serif;color:var(--ink);white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:var(--surface-2)}
+.pill{display:inline-block;padding:2px 8px;border-radius:20px;font-family:"JetBrains Mono",monospace;
+  font-size:11px;font-weight:500;letter-spacing:.02em}
+.pill.hi{background:color-mix(in srgb,var(--garnet) 14%,transparent);color:var(--garnet)}
+.pill.mid{background:color-mix(in srgb,var(--ochre) 16%,transparent);color:var(--ochre)}
+.pill.lo{background:color-mix(in srgb,var(--teal) 15%,transparent);color:var(--teal)}
+
+/* ── finding blocks ────────────────────────────── */
+.finding{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.f-head{display:flex;gap:18px;align-items:flex-start}
+.f-idx{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;color:var(--cobalt);
+  padding-top:9px;letter-spacing:.04em;flex:none}
+h2{font-size:clamp(25px,3.6vw,38px);letter-spacing:-.03em}
+h3{font-size:19px;margin-top:34px;letter-spacing:-.015em}
+.body-copy{max-width:66ch;margin-top:16px;color:var(--ink-2);font-size:16px}
+.body-copy + .body-copy{margin-top:12px}
+.body-copy b{color:var(--ink);font-weight:500}
+
+.callout{
+  margin-top:26px;padding:20px 22px;border-left:2px solid var(--ochre);
+  background:color-mix(in srgb,var(--ochre) 6%,var(--surface));border-radius:0 var(--radius) var(--radius) 0;
+}
+.callout p{font-size:15px;color:var(--ink-2);max-width:62ch}
+.callout b{color:var(--ink);font-weight:500}
+
+/* ── dark band ─────────────────────────────────── */
+.band{
+  background:var(--deep);color:var(--deep-ink);border-top:none;
+  --surface:#0F1720;
+  --surface-2:#131E29;
+  --line:#22303D;
+  --line-soft:#1A2632;
+  --ink:#FFFFFF;
+  --ink-2:#A9BACB;
+  --ink-3:#6F8296;
+  --cobalt:#4A8FE0;
+  --ochre:#CE7434;
+  --teal:#0F9E92;
+  --garnet:#DD6A72;
+}
+.band h2{color:#fff}
+.band .eyebrow{color:#6F8296}
+.band .eyebrow::after{background:var(--deep-line)}
+.band .body-copy{color:var(--ink-2)}
+.band .body-copy b{color:#fff}
+.band .card{box-shadow:none}
+
+/* ── checklist ─────────────────────────────────── */
+.stage{margin-top:30px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden}
+.stage-head{display:flex;align-items:center;gap:14px;padding:16px 20px;border-bottom:1px solid var(--line-soft);
+  background:var(--surface-2);flex-wrap:wrap}
+.stage-n{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;color:#fff;background:var(--cobalt);
+  width:23px;height:23px;border-radius:50%;display:grid;place-items:center;flex:none}
+.stage-t{font-family:"Unbounded",sans-serif;font-size:14.5px;font-weight:600}
+.stage-when{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase}
+.stage-prog{margin-left:auto;font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--ink-2);display:flex;align-items:center;gap:9px}
+.prog-track{width:64px;height:3px;background:var(--line);border-radius:2px;overflow:hidden}
+.prog-fill{height:100%;width:0;background:var(--teal);transition:width .35s cubic-bezier(.2,.7,.3,1)}
+.task{display:flex;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line-soft);cursor:pointer;
+  transition:background .16s;align-items:flex-start}
+.task:last-child{border-bottom:none}
+.task:hover{background:var(--surface-2)}
+.task input{
+  appearance:none;width:17px;height:17px;border:1.5px solid var(--ink-3);border-radius:3px;margin:3px 0 0;
+  flex:none;cursor:pointer;position:relative;transition:background .16s,border-color .16s;background:var(--surface);
+}
+.task input:checked{background:var(--teal);border-color:var(--teal)}
+.task input:checked::after{content:"";position:absolute;left:5px;top:1.5px;width:4px;height:9px;
+  border:solid #fff;border-width:0 2px 2px 0;transform:rotate(42deg)}
+.task input:focus-visible{outline:2px solid var(--cobalt);outline-offset:2px}
+.task-body{flex:1;min-width:0}
+.task-t{font-size:14.5px;color:var(--ink);line-height:1.45;transition:color .2s}
+.task-why{font-size:12.5px;color:var(--ink-3);margin-top:3px;line-height:1.45}
+.task-gain{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--teal);white-space:nowrap;padding-top:2px}
+.task.done .task-t{color:var(--ink-3);text-decoration:line-through;text-decoration-color:var(--ink-3)}
+.task.done .task-why{opacity:.6}
+
+footer{padding:52px 0 72px;color:var(--ink-3);font-size:13px;border-top:1px solid var(--line-soft)}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+
+.reveal{opacity:0;transform:translateY(14px)}
+.reveal.in{opacity:1;transform:none;transition:opacity .55s cubic-bezier(.2,.7,.3,1),transform .55s cubic-bezier(.2,.7,.3,1)}
+
+@media (max-width:860px){
+  .strip-in{grid-template-columns:repeat(2,1fr)}
+  .strip-cell:nth-child(2){border-right:none}
+  .strip-cell{padding:18px 16px 18px 0}
+  .hero-leak{grid-template-columns:1fr;gap:14px}
+  section{padding:60px 0}
+  .f-head{gap:12px}
+}
+@media (prefers-reduced-motion: reduce){
+  *{animation:none!important;transition-duration:.01ms!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+
+<div id="rail"><span></span></div>
+
+<nav>
+  <div class="nav-in">
+    <span class="nav-mark">ILM MARKAZI <em>/</em> аудит</span>
+    <a href="#svodka">Сводка</a>
+    <a href="#musor">Мусор</a>
+    <a href="#avgust">Август</a>
+    <a href="#komanda">Команда</a>
+    <a href="#melochi">Мелочи</a>
+    <a href="#dengi">Деньги</a>
+    <a href="#plan">План</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-in">
+    <div class="hero-tag reveal">
+      <span>Facebook &amp; Instagram Ads</span>
+      <span>·</span>
+      <span><b>22 мая — 21 августа 2026</b></span>
+      <span>·</span>
+      <span>92 дня</span>
+    </div>
+    <h1 class="reveal">Кабинет работает.<br><span class="thin">Деньги теряются<br>после клика.</span></h1>
+    <p class="hero-sub reveal">Разбор 27 487 лидов Facebook, 29 304 сделок amoCRM и 900 продаж. Реклама возвращает $6,24 выручки на каждый доллар расхода — и и при этом 60% бюджета уходит на лиды, которых невозможно продать.</p>
+    <div class="hero-leak reveal">
+      <div class="leak-fig" data-count="15500" data-prefix="$">$0</div>
+      <p class="leak-cap">ушло за квартал в лиды, помеченные как <b>мусор</b>: неверный номер, недозвон, дети 3–14, дубли. Это <b>60%</b> всего рекламного расхода.</p>
+    </div>
+  </div>
+  <div class="hero-strip">
+    <dl class="strip-in">
+      <div class="strip-cell"><dt>Расход</dt><dd class="num" data-count="25805" data-prefix="$">$0</dd></div>
+      <div class="strip-cell"><dt>Лидов</dt><dd class="num" data-count="27487">0</dd></div>
+      <div class="strip-cell"><dt>Продаж</dt><dd class="num" data-count="900">0</dd></div>
+      <div class="strip-cell"><dt>Выручка</dt><dd class="num" data-count="161063" data-prefix="$">$0</dd></div>
+    </dl>
+  </div>
+</header>
+
+<section id="svodka">
+  <div class="wrap">
+    <div class="eyebrow">Что показывают цифры</div>
+    <h2>Реклама не является узким местом</h2>
+    <p class="lede">CPL $0,94 при CPM $0,99 — это пол рынка, дальше выжимать почти нечего. Цена оплаты $29–61, средний чек $179. Всё, что можно улучшить дальше, находится за пределами рекламного кабинета.</p>
+
+    <dl class="tiles reveal">
+      <div class="tile"><dt>CPL</dt><dd class="num">$0,94</dd><div class="sub">стабильно 14 недель подряд</div></div>
+      <div class="tile"><dt>Лид → оплата</dt><dd class="num">3,07%</dd><div class="sub">900 продаж из 29 304 сделок</div></div>
+      <div class="tile"><dt>Средний чек</dt><dd class="num">$179</dd><div class="sub">2 236 988 сум · в конфиге стоит $50</div></div>
+      <div class="tile good"><dt>ROAS</dt><dd class="num">6,24×</dd><div class="sub">по выручке ко всему расходу</div></div>
+      <div class="tile bad"><dt>Мусорных лидов</dt><dd class="num">60%</dd><div class="sub">17 514 из 29 304</div></div>
+    </dl>
+
+    <div class="card reveal">
+      <div class="card-head">
+        <div>
+          <div class="card-title">Неделя за неделей</div>
+          <div class="card-sub">Цена лида не меняется — меняется всё остальное. Наведите курсор на точку.</div>
+        </div>
+        <div class="seg" id="wk-seg" role="group" aria-label="Метрика">
+          <button data-k="cpl" aria-pressed="true">CPL $</button>
+          <button data-k="cv" aria-pressed="false">Конверсия %</button>
+          <button data-k="cpa" aria-pressed="false">Цена оплаты $</button>
+          <button data-k="trash" aria-pressed="false">Мусор %</button>
+        </div>
+      </div>
+      <div class="chart-scroll"><svg id="wk-chart" viewBox="0 0 980 300" role="img" aria-label="Динамика по неделям"></svg></div>
+      <p class="note" style="margin-top:10px">Последняя неделя неполная: часть лидов ещё не дозрела до продажи — медиана пути до оплаты 2,2 дня, хвост до 8 дней.</p>
+    </div>
+  </div>
+</section>
+
+<section id="musor" class="band">
+  <div class="wrap">
+    <div class="finding">
+      <div class="f-head">
+        <span class="f-idx">01</span>
+        <div>
+          <div class="eyebrow">Находка первая</div>
+          <h2>Две трети бюджета покупает людей, которым нельзя продать</h2>
+          <p class="body-copy">Я разложил все 27 082 потерянные сделки по причинам, которые проставили менеджеры. Картина повторяется каждую неделю без исключения: доля мусора держится в коридоре <b>56–64%</b> с мая по август и не улучшается.</p>
+          <p class="body-copy">Каждый четвёртый лид — <b>недозвон</b>. Каждый четвёртый — <b>неверный или тестовый номер</b>. В деньгах это <b>$15 500</b> за квартал, или $5 170 в месяц, которые уходят в никуда при живом, работающем кабинете.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-head">
+          <div>
+            <div class="card-title">Причины потерь · 27 082 сделки</div>
+            <div class="card-sub">Красным — брак, который нельзя продать. Синим — живые возражения, с которыми можно работать.</div>
+          </div>
+        </div>
+        <div class="legend">
+          <span><i class="swatch" style="background:var(--garnet)"></i> Брак лида</span>
+          <span><i class="swatch" style="background:var(--cobalt)"></i> Отработанное возражение</span>
+        </div>
+        <div class="chart-scroll"><svg id="loss-chart" viewBox="0 0 980 400" role="img" aria-label="Причины потерь"></svg></div>
+      </div>
+
+      <h3 style="color:#fff">CPL одинаковый у всех. Цена оплаты — разная в 7,7 раза</h3>
+      <p class="body-copy">Вот почему CPL нельзя использовать как критерий. По цене лида все адсеты в кабинете лежат в узком коридоре $0,80–1,32. По цене оплаты разброс — от <b>$39 до $301</b>. А предсказывает эту разницу доля мусора, которая видна уже через 48 часов, задолго до первой продажи.</p>
+
+      <div class="card reveal">
+        <div class="card-head">
+          <div>
+            <div class="card-title">Один и тот же порядок адсетов, две шкалы</div>
+            <div class="card-sub">Слева — то, на что мы смотрим сейчас. Справа — то, что определяет деньги.</div>
+          </div>
+        </div>
+        <div class="chart-scroll"><svg id="adset-chart" viewBox="0 0 980 430" role="img" aria-label="CPL против цены оплаты по адсетам"></svg></div>
+      </div>
+
+      <div class="tbl-wrap reveal">
+        <table>
+          <thead><tr><th>Адсет</th><th>Расход</th><th>CPL</th><th>Мусор</th><th>Продаж</th><th>Цена оплаты</th></tr></thead>
+          <tbody id="adset-tbl"></tbody>
+        </table>
+      </div>
+      <p class="note" style="margin-top:12px;color:#7A8B9B">Цена оплаты считается по атрибутированным продажам (46,7% сделок несут ad_id), поэтому абсолютные значения завышены примерно вдвое. Сравнение адсетов между собой при этом остаётся честным.</p>
+    </div>
+  </div>
+</section>
+
+<section id="avgust">
+  <div class="wrap">
+    <div class="finding">
+      <div class="f-head">
+        <span class="f-idx">02</span>
+        <div>
+          <div class="eyebrow">Находка вторая</div>
+          <h2>Август просел, и виноваты тесты</h2>
+          <p class="body-copy">Июль был лучшим месяцем квартала: цена оплаты $27, конверсия 2,89%. В августе конверсия упала до 2,21%, цена оплаты выросла до $36. Единственное, что изменилось структурно, — доля бюджета в тестовых кампаниях выросла с <b>8% в мае до 33% в августе</b>.</p>
+          <p class="body-copy">При этом сами тесты поставлены так, что решение по ним принять невозможно: LAL — $60 за два дня, Interests — $74. Порог значимости при чеке $179 и марже 60% — около <b>$215 на тест</b>. Всё, что меньше, производит шум, а не данные. Победители тем временем недофинансированы: связка <span class="mono">ali aka may 3</span> при цене оплаты $38 и ROAS 4,34× получила за квартал всего $908.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-head">
+          <div>
+            <div class="card-title">Доля бюджета в тестах и что с ней происходит</div>
+            <div class="card-sub">Три графика по одним и тем же месяцам. Май и август — неполные.</div>
+          </div>
+        </div>
+        <div class="chart-scroll"><svg id="month-chart" viewBox="0 0 980 250" role="img" aria-label="Помесячная динамика"></svg></div>
+      </div>
+
+      <div class="callout reveal">
+        <p><b>Порядок обратный правильному.</b> Сначала выжимается объём работающего, затем улучшается узкое место воронки, и только потом запускается новое. У нас наоборот: четыре новые тестовые кампании за август при неотмасштабированных победителях.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="komanda" class="band">
+  <div class="wrap">
+    <div class="finding">
+      <div class="f-head">
+        <span class="f-idx">03</span>
+        <div>
+          <div class="eyebrow">Находка третья</div>
+          <h2>Одинаковые лиды, разные менеджеры — разница втрое</h2>
+          <p class="body-copy">19 менеджеров с 300+ лидами каждый. Лиды распределяются равномерно, то есть качество трафика у всех одно. Конверсия при этом от <b>1,22% до 3,83%</b>.</p>
+          <p class="body-copy">Если подтянуть всех до уровня верхнего квартиля — 3,41%, которых уже достигают пятеро из девятнадцати, — это <b>+236 продаж за квартал</b>, или 529 млн сум. Больше, чем даёт любая правка в рекламном кабинете.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-head">
+          <div>
+            <div class="card-title">Конверсия по менеджерам</div>
+            <div class="card-sub">Каждая точка — менеджер. Размер отражает число обработанных лидов.</div>
+          </div>
+        </div>
+        <div class="chart-scroll"><svg id="mg-chart" viewBox="0 0 980 330" role="img" aria-label="Конверсия по менеджерам"></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="melochi">
+  <div class="wrap">
+    <div class="eyebrow">Находка четвёртая</div>
+    <h2>Четыре вещи, которые чинятся за час</h2>
+
+    <div class="card reveal">
+      <div class="card-head">
+        <div>
+          <div class="card-title">Плейсменты · 92 дня</div>
+          <div class="card-sub">Audience Network стоит вчетверо дороже и почти не даёт лидов из кликов.</div>
+        </div>
+      </div>
+      <div class="chart-scroll"><svg id="pl-chart" viewBox="0 0 980 260" role="img" aria-label="Плейсменты"></svg></div>
+    </div>
+
+    <h3>Ещё три</h3>
+    <p class="body-copy"><b>Два поля телефона в одной форме.</b> Главная форма (15 655 лидов) спрашивает номер дважды: ручным вводом «Ishlaydigan telefon raqamingiz?» и автозаполнением. При 15,9% «неверных номеров» стоит проверить, какое из полей уезжает в amoCRM.</p>
+    <p class="body-copy"><b>3 143 человека сказали «буду учиться позже»</b> — и закрыты как потеря. Повторных касаний нет. Реактивация всего 5% этой базы даёт +157 продаж и $28 100 без единого доллара рекламы.</p>
+    <p class="body-copy"><b>Stories режут по неверной метрике.</b> У них худший показатель клик→лид (3,8%), но продаж они дают больше, чем Reels: 2,78% против 1,65%. Решение по клик→лид отключило бы работающий плейсмент.</p>
+  </div>
+</section>
+
+<section id="dengi" class="band">
+  <div class="wrap">
+    <div class="eyebrow">Итог</div>
+    <h2>$94 600 лежит на столе</h2>
+    <p class="body-copy" style="font-size:17.5px">Это за квартал — против $25 805 рекламного бюджета за тот же период. Ни один из четырёх пунктов не требует увеличения расхода на рекламу.</p>
+
+    <div class="card reveal">
+      <div class="chart-scroll"><svg id="pot-chart" viewBox="0 0 980 250" role="img" aria-label="Потенциал в деньгах"></svg></div>
+    </div>
+
+    <p class="note" style="margin-top:18px;color:#7A8B9B">Оценки консервативные: конверсия реактивации взята 5%, дозвон — 40% от недозвонов, перенос бюджета — только из адсетов с ценой оплаты выше $100. Средний чек во всех расчётах $179.</p>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="wrap">
+    <div class="eyebrow">Что делать</div>
+    <h2>План по этапам</h2>
+    <p class="lede">Отмеченное сохраняется в этом браузере. Порядок этапов — от того, что уже сегодня перестаёт жечь деньги, к тому, что меняет экономику.</p>
+    <div id="checklist"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Аудит рекламного кабинета Ilm Markazi · период 22.05—21.08.2026</span>
+    <span class="mono">Источники: Facebook Graph API v21, amoCRM API v4</span>
+  </div>
+</footer>
+
+<div class="tip" id="tip"></div>
+
+<script type="application/json" id="data">
+{"summary":{"spend":25805,"leads_fb":27487,"leads_amo":29304,"sales":900,"revenue_usd":161063,"cpl":0.94,"cv":3.07,"check_usd":179,"roas":6.24},
+"weeks":[{"w":"18.05","cpl":1.04,"cv":2.9,"cpa":34,"trash":56.7,"spend":891,"leads":897,"sales":26},{"w":"25.05","cpl":0.92,"cv":2.4,"cpa":39,"trash":64.5,"spend":2684,"leads":2828,"sales":68},{"w":"01.06","cpl":0.97,"cv":3.09,"cpa":32,"trash":62.4,"spend":1689,"leads":1716,"sales":53},{"w":"08.06","cpl":1.16,"cv":2.83,"cpa":43,"trash":59.6,"spend":1581,"leads":1309,"sales":37},{"w":"15.06","cpl":0.96,"cv":2.73,"cpa":37,"trash":62.5,"spend":2425,"leads":2381,"sales":65},{"w":"22.06","cpl":0.96,"cv":2.91,"cpa":30,"trash":62.8,"spend":2165,"leads":2472,"sales":72},{"w":"29.06","cpl":0.88,"cv":2.79,"cpa":30,"trash":58.3,"spend":1866,"leads":2260,"sales":63},{"w":"06.07","cpl":0.84,"cv":3.16,"cpa":24,"trash":59.1,"spend":1859,"leads":2402,"sales":76},{"w":"13.07","cpl":0.86,"cv":3.17,"cpa":25,"trash":60.5,"spend":1731,"leads":2142,"sales":68},{"w":"20.07","cpl":0.94,"cv":3.15,"cpa":28,"trash":59.2,"spend":1901,"leads":2188,"sales":69},{"w":"27.07","cpl":0.87,"cv":2.46,"cpa":31,"trash":61.0,"spend":1940,"leads":2519,"sales":62},{"w":"03.08","cpl":0.94,"cv":2.19,"cpa":39,"trash":62.5,"spend":1887,"leads":2242,"sales":49},{"w":"10.08","cpl":0.99,"cv":2.67,"cpa":32,"trash":58.1,"spend":1910,"leads":2247,"sales":60},{"w":"17.08","cpl":0.97,"cv":1.94,"cpa":39,"trash":42.2,"spend":1276,"leads":1701,"sales":33}],
+"losses":[{"name":"Не поднял трубку","n":7333,"kind":"trash","usd":6457},{"name":"Неверный номер","n":4295,"kind":"trash","usd":3782},{"name":"Будет учиться позже","n":3143,"kind":"soft","usd":2768},{"name":"Поговорил и пропал","n":2949,"kind":"soft","usd":2597},{"name":"Тестовый номер","n":2588,"kind":"trash","usd":2279},{"name":"Не подошло предложение","n":1857,"kind":"soft","usd":1635},{"name":"Дети 3–14 лет","n":1420,"kind":"trash","usd":1250},{"name":"Нет WhatsApp/Telegram","n":833,"kind":"trash","usd":733},{"name":"Просил оффлайн","n":647,"kind":"soft","usd":570},{"name":"Дубль","n":598,"kind":"trash","usd":527},{"name":"Дорого","n":573,"kind":"soft","usd":505},{"name":"«Думал, бесплатно»","n":447,"kind":"trash","usd":394}],
+"adsets":[{"name":"broad g3","spend":3613,"cpl":0.91,"sales":59,"cpa":61,"trash":58.4},{"name":"broad g2","spend":3075,"cpl":0.92,"sales":51,"cpa":60,"trash":57.5},{"name":"uzb broad bloger kreative","spend":2534,"cpl":0.91,"sales":53,"cpa":48,"trash":46.6},{"name":"broad g6","spend":2002,"cpl":1.01,"sales":27,"cpa":74,"trash":60.3},{"name":"broad g10","spend":1922,"cpl":0.95,"sales":33,"cpa":58,"trash":66.6},{"name":"broad g8","spend":1520,"cpl":1.00,"sales":20,"cpa":76,"trash":61.1},{"name":"uzb broad","spend":1514,"cpl":0.86,"sales":33,"cpa":46,"trash":56.6},{"name":"ABO — target.2","spend":1337,"cpl":0.80,"sales":21,"cpa":64,"trash":61.6},{"name":"A3: Tashkent 25-65","spend":818,"cpl":0.95,"sales":9,"cpa":91,"trash":59.2},{"name":"A4: Tashkent 30-65","spend":797,"cpl":1.09,"sales":6,"cpa":133,"trash":61.6},{"name":"A2: Tashkent 18-65","spend":788,"cpl":0.95,"sales":9,"cpa":88,"trash":65.2},{"name":"broad g1","spend":748,"cpl":1.04,"sales":7,"cpa":107,"trash":75.0},{"name":"ABO — target.3","spend":602,"cpl":0.80,"sales":2,"cpa":301,"trash":72.5},{"name":"A5: UZ Work abroad","spend":541,"cpl":0.98,"sales":7,"cpa":77,"trash":71.7},{"name":"A1: AA+ broad UZ","spend":464,"cpl":0.81,"sales":3,"cpa":155,"trash":69.8},{"name":"ABO LF — iyul-2","spend":395,"cpl":0.98,"sales":6,"cpa":66,"trash":51.4},{"name":"Advantage+ — best 3","spend":355,"cpl":0.98,"sales":9,"cpa":39,"trash":41.0},{"name":"ABO LF — iyul-1","spend":236,"cpl":1.10,"sales":0,"cpa":null,"trash":79.3}],
+"months":[{"m":"Май","test":8,"cv":2.46,"cpa":37,"spend":3575,"part":true},{"m":"Июнь","test":9,"cv":2.80,"cpa":33,"spend":8439},{"m":"Июль","test":24,"cv":2.89,"cpa":27,"spend":8137},{"m":"Август","test":33,"cv":2.21,"cpa":36,"spend":5654,"part":true}],
+"managers":[{"name": "Mirvohidov Akrom", "n": 1200, "cv": 3.83}, {"name": "Eltayev Jasur", "n": 2230, "cv": 3.5}, {"name": "Mashxura Xoliqova", "n": 1061, "cv": 3.49}, {"name": "To'ychiyev Diyorbek", "n": 2118, "cv": 3.45}, {"name": "Ko'charov Timur", "n": 1348, "cv": 3.41}, {"name": "Eldor Qodirov", "n": 1542, "cv": 3.31}, {"name": "To'lqunov Javohir", "n": 1458, "cv": 3.22}, {"name": "Mamaraximov Behruzbek", "n": 1019, "cv": 3.14}, {"name": "Ibragimov Ikrom", "n": 1166, "cv": 2.92}, {"name": "Mo'minov Sunnat", "n": 1096, "cv": 2.83}, {"name": "Nasrulloyeva Jasmina", "n": 816, "cv": 2.33}, {"name": "Zarif Eshnazarov", "n": 1566, "cv": 2.23}, {"name": "Mengniyazov Diyorbek", "n": 1406, "cv": 2.13}, {"name": "Saydaxmedov Muhammadali", "n": 1735, "cv": 2.13}, {"name": "Egamberdiyev Og'abek", "n": 2323, "cv": 2.02}, {"name": "Abdumalikov Nodirjon", "n": 2129, "cv": 1.97}, {"name": "Abduazizova Feruza", "n": 1948, "cv": 1.69}, {"name": "Axatov Dilmurod", "n": 1233, "cv": 1.46}, {"name": "Mirzaboyev Xasan", "n": 1719, "cv": 1.22}],
+"mg_stats":{"median":2.83,"q3":3.41},
+"placements":[{"name":"Instagram Reels","spend":16541,"cpl":0.94,"c2l":14.1},{"name":"Instagram Лента","spend":4828,"cpl":0.95,"c2l":18.7},{"name":"Instagram Stories","spend":3672,"cpl":0.89,"c2l":3.8},{"name":"Facebook Reels","spend":357,"cpl":1.01,"c2l":10.4},{"name":"Facebook Лента","spend":181,"cpl":1.09,"c2l":7.6},{"name":"Audience Network","spend":184,"cpl":3.60,"c2l":0.4}],
+"potential":[{"name":"Менеджеры до уровня верхнего квартиля","usd":42300,"how":"+236 продаж"},{"name":"Реактивация «буду учиться позже»","usd":28100,"how":"+157 продаж, 5% базы"},{"name":"Дозвон до 40% недозвонов","usd":16100,"how":"+90 продаж"},{"name":"Перенос бюджета из адсетов с ценой оплаты > $100","usd":8100,"how":"+45 продаж"}],
+"stages":[
+ {"n":1,"t":"Перестать жечь","when":"сегодня · 2 часа","tasks":[
+  {"t":"Выключить Audience Network","why":"$184 расхода, CPL $3,60 вчетверо выше, из кликов в лиды доходит 0,4%","gain":""},
+  {"t":"Погасить адсет ABO LF — iyul-1","why":"79% мусора, ноль продаж на $236","gain":""},
+  {"t":"Заморозить создание новых тестовых кампаний","why":"доля тестов 33% против 8% в мае — прямая причина просадки августа","gain":""},
+  {"t":"Проверить, какое из двух полей телефона уезжает в amoCRM","why":"главная форма спрашивает номер дважды, 15,9% лидов помечены как неверный номер","gain":"до $3 800"}]},
+ {"n":2,"t":"Перенастроить оптику","when":"эта неделя","tasks":[
+  {"t":"Вывести «долю мусора» на дашборд как основную метрику качества адсета","why":"видна за 48 часов и предсказывает цену оплаты, в отличие от CPL","gain":""},
+  {"t":"Ввести порог: мусор выше 65% — кандидат на паузу независимо от CPL","why":"адсеты с мусором 41% дают продаж вдвое больше, чем с мусором 75%","gain":""},
+  {"t":"Вернуть долю тестового бюджета к 10%, освободившееся влить в три лучшие связки шагами +20%","why":"uzb broad bloger kreative, uzb broad, Advantage+ best 3 — цена оплаты $39–48 против средних $65","gain":"+$8 100"},
+  {"t":"Настроить автоматическую SMS-цепочку на статус «не дозвонились»","why":"7 333 лида за квартал, Eskiz уже подключён","gain":"+$16 100"},
+  {"t":"Завести отдельную воронку для «буду учиться позже» вместо закрытия в потери","why":"3 143 человека за квартал уходят в архив без повторных касаний","gain":"+$28 100"},
+  {"t":"Обновить project_config: чек $179, цена привлечения $34","why":"сейчас в конфиге стоит $50 — экономика занижена в 3,6 раза","gain":""}]},
+ {"n":3,"t":"Поднять конверсию","when":"этот месяц","tasks":[
+  {"t":"Разобрать разброс менеджеров: снять скрипты у топ-5 и перенести на остальных","why":"конверсия от 1,22% до 3,83% при одинаковых лидах — самая крупная сумма из всех","gain":"+$42 300"},
+  {"t":"Переписать AGENT.md под экономику Ilm Markazi","why":"сейчас там пороги MARS IT: чек $50–80 в месяц, цена привлечения $30–40","gain":""},
+  {"t":"Задать тестовый лимит $215 на объявление и стоп на $107 при нуле лидов","why":"двойная тридцатидневная валовая прибыль вместо произвольных $15 в день","gain":""},
+  {"t":"Один тест в неделю на кабинет, результат — в журнал решений","why":"параллельные мелкие тесты не набирают значимости и портят общий результат","gain":""},
+  {"t":"Закрыть дыру атрибуции: 53% продаж приходят без ad_id","why":"половина решений о цене оплаты принимается на половине данных","gain":""}]},
+ {"n":4,"t":"Изменить экономику","when":"квартал","tasks":[
+  {"t":"Посчитать LTGP: чек × число оплаченных месяцев − себестоимость","why":"без себестоимости обучения нельзя сказать, где проходит порог рентабельности","gain":""},
+  {"t":"Вынести лид-магнит в само объявление","why":"PDF «7 kunlik reja» сейчас показывается только после отправки формы и на решение оставить номер не влияет","gain":""},
+  {"t":"Запустить воронки «Второй» и «Третий месяц»","why":"за квартал в них создан один лид — повторные оплаты не оцифрованы","gain":""},
+  {"t":"Собрать когортный дашборд: месяц лида → оплаты","why":"медиана пути 2,2 дня, хвост до 8 — месячные срезы искажают свежие когорты","gain":""}]}
+]}
+</script>
+
+<script>
+(function(){
+  "use strict";
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var C = function(n){ return getComputedStyle(document.body).getPropertyValue(n).trim(); };
+  var NS = 'http://www.w3.org/2000/svg';
+  function el(t, a){ var e = document.createElementNS(NS, t); for (var k in a) e.setAttribute(k, a[k]); return e; }
+  function growX(node, delay){
+    if (reduce) return;
+    node.style.transformBox = 'fill-box';
+    node.style.transformOrigin = 'left center';
+    node.animate([{ transform: 'scaleX(0)' }, { transform: 'scaleX(1)' }],
+      { duration: 650, delay: delay || 0, easing: 'cubic-bezier(.2,.7,.3,1)', fill: 'both' });
+  }
+  function growY(node, delay){
+    if (reduce) return;
+    node.style.transformBox = 'fill-box';
+    node.style.transformOrigin = 'center bottom';
+    node.animate([{ transform: 'scaleY(0)' }, { transform: 'scaleY(1)' }],
+      { duration: 650, delay: delay || 0, easing: 'cubic-bezier(.2,.7,.3,1)', fill: 'both' });
+  }
+  function slideX(node, dx, delay){
+    if (reduce) return;
+    node.animate([{ transform: 'translateX(' + (-dx) + 'px)' }, { transform: 'none' }],
+      { duration: 700, delay: delay || 0, easing: 'cubic-bezier(.2,.7,.3,1)', fill: 'both' });
+  }
+  function fmt(n){ return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '\u202F'); }
+
+  /* ── tooltip ─────────────────────────────── */
+  var tip = document.getElementById('tip');
+  function showTip(evt, html){
+    tip.innerHTML = html; tip.classList.add('on');
+    var r = tip.getBoundingClientRect();
+    var x = evt.clientX + 14, y = evt.clientY - r.height - 12;
+    if (x + r.width > window.innerWidth - 10) x = evt.clientX - r.width - 14;
+    if (y < 8) y = evt.clientY + 18;
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  }
+  function hideTip(){ tip.classList.remove('on'); }
+  function hot(node, html){
+    node.addEventListener('mousemove', function(e){ showTip(e, html); });
+    node.addEventListener('mouseleave', hideTip);
+    node.style.cursor = 'crosshair';
+  }
+
+  /* ── weekly line chart ───────────────────── */
+  var wkKey = 'cpl';
+  var wkMeta = {
+    cpl:   { label: 'CPL, $',            unit: '$',  color: function(){ return C('--cobalt'); }, dec: 2 },
+    cv:    { label: 'Лид → оплата, %',   unit: '%',  color: function(){ return C('--teal');   }, dec: 2 },
+    cpa:   { label: 'Цена оплаты, $',    unit: '$',  color: function(){ return C('--ochre');  }, dec: 0 },
+    trash: { label: 'Доля мусора, %',    unit: '%',  color: function(){ return C('--garnet'); }, dec: 1 }
+  };
+  function drawWeek(){
+    var svg = document.getElementById('wk-chart');
+    var C = function(n){ return getComputedStyle(svg).getPropertyValue(n).trim(); };
+    svg.textContent = '';
+    var W = 980, H = 300, L = 52, R = 18, T = 22, B = 44;
+    var m = wkMeta[wkKey], data = D.weeks, col = m.color();
+    var vals = data.map(function(d){ return d[wkKey]; });
+    var max = Math.max.apply(null, vals) * 1.12, min = 0;
+    var xw = (W - L - R) / (data.length - 1);
+    var X = function(i){ return L + i * xw; };
+    var Y = function(v){ return T + (H - T - B) * (1 - (v - min) / (max - min)); };
+
+    for (var t = 0; t <= 4; t++){
+      var v = min + (max - min) * t / 4, y = Y(v);
+      svg.appendChild(el('line', { x1: L, x2: W - R, y1: y, y2: y, class: 'grid-line' }));
+      var lb = el('text', { x: L - 10, y: y + 4, class: 'axis-t', 'text-anchor': 'end' });
+      lb.textContent = ((m.unit === '$' ? '$' : '') + v.toFixed(m.dec === 2 ? 1 : 0)).replace('.', ',') + (m.unit === '%' ? '%' : '');
+      svg.appendChild(lb);
+    }
+    var dstr = data.map(function(d, i){ return (i ? 'L' : 'M') + X(i) + ' ' + Y(d[wkKey]); }).join(' ');
+    var area = el('path', { d: dstr + ' L' + X(data.length - 1) + ' ' + (H - B) + ' L' + L + ' ' + (H - B) + ' Z',
+      fill: col, opacity: .09 });
+    svg.appendChild(area);
+    var line = el('path', { d: dstr, fill: 'none', stroke: col, 'stroke-width': 2,
+      'stroke-linejoin': 'round', 'stroke-linecap': 'round' });
+    svg.appendChild(line);
+    if (!reduce){
+      var len = line.getTotalLength();
+      line.style.strokeDasharray = len; line.style.strokeDashoffset = len;
+      line.animate([{ strokeDashoffset: len }, { strokeDashoffset: 0 }],
+        { duration: 900, easing: 'cubic-bezier(.2,.7,.3,1)', fill: 'forwards' });
+      area.animate([{ opacity: 0 }, { opacity: .09 }], { duration: 700, delay: 300, fill: 'forwards' });
+    }
+    data.forEach(function(d, i){
+      var isLast = i === data.length - 1;
+      var c = el('circle', { cx: X(i), cy: Y(d[wkKey]), r: isLast ? 5 : 4, fill: col,
+        stroke: C('--surface'), 'stroke-width': 2 });
+      svg.appendChild(c);
+      var g = el('rect', { x: X(i) - xw / 2, y: T, width: xw, height: H - T - B, fill: 'transparent' });
+      hot(g, '<b>неделя ' + d.w + '</b>CPL <i>$' + d.cpl.toFixed(2) + '</i><br>конверсия <i>' + d.cv + '%</i><br>цена оплаты <i>$' + d.cpa + '</i><br>мусор <i>' + d.trash + '%</i><br>лидов <i>' + fmt(d.leads) + '</i> · продаж <i>' + d.sales + '</i>');
+      svg.appendChild(g);
+      if (i % 2 === 0 || isLast){
+        var x = el('text', { x: X(i), y: H - B + 20, class: 'axis-t', 'text-anchor': 'middle' });
+        x.textContent = d.w; svg.appendChild(x);
+      }
+    });
+    var lastV = data[data.length - 1][wkKey];
+    var lbl = el('text', { x: X(data.length - 1) - 6, y: Y(lastV) - 14, class: 'bar-lbl', 'text-anchor': 'end' });
+    lbl.textContent = ((m.unit === '$' ? '$' : '') + lastV.toFixed(m.dec)).replace('.', ',') + (m.unit === '%' ? '%' : '');
+    svg.appendChild(lbl);
+    var cap = el('text', { x: L, y: H - 6, class: 'axis-t strong' });
+    cap.textContent = m.label; svg.appendChild(cap);
+  }
+  document.getElementById('wk-seg').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    [].forEach.call(this.querySelectorAll('button'), function(x){ x.setAttribute('aria-pressed', 'false'); });
+    b.setAttribute('aria-pressed', 'true'); wkKey = b.dataset.k; drawWeek();
+  });
+
+  /* ── losses ──────────────────────────────── */
+  function drawLoss(){
+    var svg = document.getElementById('loss-chart');
+    var C = function(n){ return getComputedStyle(svg).getPropertyValue(n).trim(); }; svg.textContent = '';
+    var d = D.losses, W = 980, rowH = 30, L = 210, R = 196, T = 8;
+    var H = T + d.length * rowH + 10;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    var max = Math.max.apply(null, d.map(function(x){ return x.n; }));
+    d.forEach(function(x, i){
+      var y = T + i * rowH, w = (W - L - R) * x.n / max;
+      var col = x.kind === 'trash' ? C('--garnet') : C('--cobalt');
+      var nm = el('text', { x: L - 14, y: y + 19, class: 'row-lbl', 'text-anchor': 'end' });
+      nm.textContent = x.name; svg.appendChild(nm);
+      var bar = el('rect', { x: L, y: y + 6, width: w, height: 17, rx: 4, fill: col, opacity: .92 });
+      svg.appendChild(bar); growX(bar, 60 * i);
+      hot(bar, '<b>' + x.name + '</b>' + fmt(x.n) + ' сделок<br>стоимость <i>$' + fmt(x.usd) + '</i>');
+      var v = el('text', { x: L + w + 12, y: y + 20, class: 'bar-lbl' });
+      v.textContent = fmt(x.n) + '  ·  $' + fmt(x.usd); svg.appendChild(v);
+    });
+  }
+
+  /* ── adsets: CPL vs CPA small multiples ──── */
+  function drawAdsets(){
+    var svg = document.getElementById('adset-chart');
+    var C = function(n){ return getComputedStyle(svg).getPropertyValue(n).trim(); }; svg.textContent = '';
+    var d = D.adsets.slice(0, 14), W = 980, rowH = 26, T = 40, L = 172;
+    var H = T + d.length * rowH + 24;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    var gap = 46, colW = (W - L - gap - 60) / 2;
+    var maxCpl = 1.4, maxCpa = 320;
+    var h1 = el('text', { x: L, y: 20, class: 'axis-t strong' }); h1.textContent = 'CPL — коридор $0,80…1,32'; svg.appendChild(h1);
+    var h2 = el('text', { x: L + colW + gap, y: 20, class: 'axis-t strong' }); h2.textContent = 'Цена оплаты — $39…$301'; svg.appendChild(h2);
+    [[L, colW, maxCpl], [L + colW + gap, colW, maxCpa]].forEach(function(ax){
+      for (var t = 0; t <= 2; t++){
+        var x = ax[0] + ax[1] * t / 2;
+        svg.appendChild(el('line', { x1: x, x2: x, y1: T - 6, y2: T + d.length * rowH, class: 'grid-line' }));
+      }
+    });
+    d.forEach(function(x, i){
+      var y = T + i * rowH;
+      var nm = el('text', { x: L - 12, y: y + 17, class: 'row-lbl', 'text-anchor': 'end' });
+      nm.textContent = x.name.length > 22 ? x.name.slice(0, 21) + '…' : x.name;
+      svg.appendChild(nm);
+      var w1 = colW * Math.min(x.cpl / maxCpl, 1);
+      var b1 = el('rect', { x: L, y: y + 5, width: w1, height: 14, rx: 4, fill: C('--cobalt'), opacity: .85 });
+      svg.appendChild(b1); growX(b1, 40 * i);
+      hot(b1, '<b>' + x.name + '</b>CPL <i>$' + x.cpl.toFixed(2) + '</i>');
+      var v1 = el('text', { x: L + w1 + 8, y: y + 17, class: 'axis-t' }); v1.textContent = '$' + x.cpl.toFixed(2); svg.appendChild(v1);
+      var x0 = L + colW + gap;
+      if (x.cpa === null){
+        var no = el('text', { x: x0, y: y + 17, class: 'axis-t' });
+        no.textContent = 'ноль продаж'; no.setAttribute('fill', C('--garnet')); svg.appendChild(no);
+      } else {
+        var w2 = colW * Math.min(x.cpa / maxCpa, 1);
+        var col = x.cpa <= 50 ? C('--teal') : (x.cpa <= 100 ? C('--ochre') : C('--garnet'));
+        var b2 = el('rect', { x: x0, y: y + 5, width: w2, height: 14, rx: 4, fill: col, opacity: .9 });
+        svg.appendChild(b2); growX(b2, 40 * i + 160);
+        hot(b2, '<b>' + x.name + '</b>цена оплаты <i>$' + x.cpa + '</i><br>продаж <i>' + x.sales + '</i> · мусор <i>' + x.trash + '%</i>');
+        var v2 = el('text', { x: x0 + w2 + 8, y: y + 17, class: 'axis-t' }); v2.textContent = '$' + x.cpa; svg.appendChild(v2);
+      }
+    });
+  }
+
+  /* ── adset table ─────────────────────────── */
+  function fillTable(){
+    var tb = document.getElementById('adset-tbl');
+    D.adsets.forEach(function(x){
+      var cls = x.trash >= 65 ? 'hi' : (x.trash >= 55 ? 'mid' : 'lo');
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td>' + x.name + '</td><td>$' + fmt(x.spend) + '</td><td>$' + x.cpl.toFixed(2) +
+        '</td><td><span class="pill ' + cls + '">' + x.trash + '%</span></td><td>' + x.sales +
+        '</td><td>' + (x.cpa === null ? '—' : '$' + x.cpa) + '</td>';
+      tb.appendChild(tr);
+    });
+  }
+
+  /* ── months ──────────────────────────────── */
+  function drawMonths(){
+    var svg = document.getElementById('month-chart');
+    var C = function(n){ return getComputedStyle(svg).getPropertyValue(n).trim(); }; svg.textContent = '';
+    var d = D.months, W = 980, H = 250, T = 34, B = 40;
+    var panelW = (W - 60) / 3, keys = [
+      { k: 'test', label: 'Доля бюджета в тестах, %', max: 40, unit: '%', col: function(){ return C('--ochre'); } },
+      { k: 'cv',   label: 'Лид → оплата, %',          max: 3.4, unit: '%', col: function(){ return C('--teal'); } },
+      { k: 'cpa',  label: 'Цена оплаты, $',           max: 44,  unit: '$', col: function(){ return C('--cobalt'); } }
+    ];
+    keys.forEach(function(m, pi){
+      var X0 = pi * (panelW + 30);
+      var lb = el('text', { x: X0, y: 16, class: 'axis-t strong' }); lb.textContent = m.label; svg.appendChild(lb);
+      svg.appendChild(el('line', { x1: X0, x2: X0 + panelW - 20, y1: H - B, y2: H - B, class: 'grid-line' }));
+      var bw = (panelW - 40) / d.length;
+      d.forEach(function(x, i){
+        var v = x[m.k], h = (H - T - B) * v / m.max;
+        var bx = X0 + i * bw + 6, by = H - B - h;
+        var r = el('rect', { x: bx, y: by, width: bw - 12, height: h, rx: 4,
+          fill: m.col(), opacity: x.part ? .45 : .95 });
+        svg.appendChild(r); growY(r, 70 * i + pi * 90);
+        hot(r, '<b>' + x.m + (x.part ? ' (неполный)' : '') + '</b>' + m.label.replace(/,.*/, '') + ' <i>' +
+          (m.unit === '$' ? '$' + v : v + '%') + '</i><br>расход <i>$' + fmt(x.spend) + '</i>');
+        var vt = el('text', { x: bx + (bw - 12) / 2, y: by - 7, class: 'bar-lbl', 'text-anchor': 'middle' });
+        vt.textContent = (m.unit === '$' ? '$' + v : String(v).replace('.', ',') + (m.k === 'test' ? '%' : ''));
+        vt.setAttribute('style', 'font-size:10px');
+        svg.appendChild(vt);
+        var mt = el('text', { x: bx + (bw - 12) / 2, y: H - B + 18, class: 'axis-t', 'text-anchor': 'middle' });
+        mt.textContent = x.m; svg.appendChild(mt);
+      });
+    });
+  }
+
+  /* ── managers dot plot ───────────────────── */
+  function drawManagers(){
+    var svg = document.getElementById('mg-chart');
+    var C = function(n){ return getComputedStyle(svg).getPropertyValue(n).trim(); }; svg.textContent = '';
+    var d = D.managers, W = 980, H = 330, L = 210, R = 40, T = 30, B = 44;
+    var max = 4.2;
+    var X = function(v){ return L + (W - L - R) * v / max; };
+    for (var t = 0; t <= 4; t++){
+      var v = max * t / 4, x = X(v);
+      svg.appendChild(el('line', { x1: x, x2: x, y1: T, y2: H - B, class: 'grid-line' }));
+      var lb = el('text', { x: x, y: H - B + 20, class: 'axis-t', 'text-anchor': 'middle' });
+      lb.textContent = v.toFixed(1) + '%'; svg.appendChild(lb);
+    }
+    [['--ink-3', D.mg_stats.median, 'медиана ' + D.mg_stats.median + '%'],
+     ['--teal',  D.mg_stats.q3,     'верхний квартиль ' + D.mg_stats.q3 + '%']].forEach(function(m, i){
+      var x = X(m[1]);
+      svg.appendChild(el('line', { x1: x, x2: x, y1: T - 8, y2: H - B, stroke: C(m[0]),
+        'stroke-width': 1.5, 'stroke-dasharray': '4 4', opacity: .85 }));
+      var lb = el('text', { x: x + 7, y: T - 12 + i * 0, class: 'axis-t' });
+      lb.setAttribute('fill', C(m[0])); lb.textContent = m[2]; svg.appendChild(lb);
+    });
+    var rowH = (H - T - B) / d.length;
+    d.forEach(function(x, i){
+      var y = T + rowH * i + rowH / 2;
+      var nm = el('text', { x: L - 14, y: y + 4, class: 'row-lbl', 'text-anchor': 'end' });
+      nm.textContent = x.name; svg.appendChild(nm);
+      svg.appendChild(el('line', { x1: L, x2: X(x.cv), y1: y, y2: y, stroke: C('--line'), 'stroke-width': 1 }));
+      var r = 5 + (x.n / 2400) * 4;
+      var col = x.cv >= D.mg_stats.q3 ? C('--teal') : (x.cv >= D.mg_stats.median ? C('--cobalt') : C('--garnet'));
+      var c = el('circle', { cx: X(x.cv), cy: y, r: r, fill: col,
+        stroke: C('--surface'), 'stroke-width': 2 });
+      svg.appendChild(c); slideX(c, X(x.cv) - L, 45 * i);
+      hot(c, '<b>' + x.name + '</b>конверсия <i>' + x.cv + '%</i><br>лидов <i>' + fmt(x.n) + '</i>');
+      var v = el('text', { x: X(x.cv) + r + 8, y: y + 4, class: 'axis-t' });
+      v.textContent = x.cv + '%'; svg.appendChild(v);
+    });
+  }
+
+  /* ── placements ──────────────────────────── */
+  function drawPlacements(){
+    var svg = document.getElementById('pl-chart');
+    var C = function(n){ return getComputedStyle(svg).getPropertyValue(n).trim(); }; svg.textContent = '';
+    var d = D.placements, W = 980, rowH = 38, L = 168, T = 12, RES = 330;
+    var H = T + d.length * rowH + 10;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    var max = Math.max.apply(null, d.map(function(x){ return x.spend; }));
+    d.forEach(function(x, i){
+      var y = T + i * rowH;
+      var nm = el('text', { x: L - 14, y: y + 22, class: 'row-lbl', 'text-anchor': 'end' });
+      nm.textContent = x.name; svg.appendChild(nm);
+      var w = (W - L - RES) * x.spend / max;
+      var bad = x.cpl > 2;
+      var bar = el('rect', { x: L, y: y + 9, width: w, height: 18, rx: 4,
+        fill: bad ? C('--garnet') : C('--cobalt'), opacity: bad ? .95 : .85 });
+      svg.appendChild(bar); growX(bar, 70 * i);
+      hot(bar, '<b>' + x.name + '</b>расход <i>$' + fmt(x.spend) + '</i><br>CPL <i>$' + x.cpl.toFixed(2) +
+        '</i><br>клик → лид <i>' + x.c2l + '%</i>');
+      var v = el('text', { x: L + w + 12, y: y + 23, class: 'bar-lbl' });
+      v.textContent = '$' + fmt(x.spend) + '   CPL $' + x.cpl.toFixed(2) + '   клик→лид ' + x.c2l + '%';
+      svg.appendChild(v);
+    });
+  }
+
+  /* ── potential ───────────────────────────── */
+  function drawPotential(){
+    var svg = document.getElementById('pot-chart');
+    var C = function(n){ return getComputedStyle(svg).getPropertyValue(n).trim(); }; svg.textContent = '';
+    var d = D.potential, W = 980, rowH = 46, L = 330, T = 14;
+    var H = T + d.length * rowH + 32;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    var max = 46000;
+    d.forEach(function(x, i){
+      var y = T + i * rowH;
+      var nm = el('text', { x: L - 16, y: y + 24, class: 'row-lbl', 'text-anchor': 'end' });
+      nm.setAttribute('fill', C('--ink-2'));
+      nm.textContent = x.name.length > 40 ? x.name.slice(0, 39) + '…' : x.name;
+      svg.appendChild(nm);
+      var w = (W - L - 250) * x.usd / max;
+      var bar = el('rect', { x: L, y: y + 10, width: w, height: 22, rx: 4, fill: C('--teal'), opacity: .92 });
+      svg.appendChild(bar); growX(bar, 110 * i);
+      hot(bar, '<b>' + x.name + '</b>' + x.how + ' · <i>$' + fmt(x.usd) + '</i>');
+      var v = el('text', { x: L + w + 14, y: y + 26, class: 'bar-lbl' });
+      v.setAttribute('fill', C('--ink'));
+      v.textContent = '$' + fmt(x.usd) + '   ' + x.how;
+      svg.appendChild(v);
+    });
+    var tot = el('text', { x: L, y: H - 6, class: 'axis-t' });
+    tot.setAttribute('fill', C('--ink-3'));
+    tot.textContent = 'итого $94 600 за квартал · рекламный бюджет за тот же период $25 805';
+    svg.appendChild(tot);
+  }
+
+  /* ── checklist ───────────────────────────── */
+  function buildChecklist(){
+    var root = document.getElementById('checklist');
+    var store = {};
+    try { store = JSON.parse(localStorage.getItem('ilm-audit-tasks') || '{}'); } catch (e) { store = {}; }
+    function save(){ try { localStorage.setItem('ilm-audit-tasks', JSON.stringify(store)); } catch (e) {} }
+
+    D.stages.forEach(function(st){
+      var box = document.createElement('div'); box.className = 'stage reveal';
+      var head = document.createElement('div'); head.className = 'stage-head';
+      head.innerHTML = '<span class="stage-n">' + st.n + '</span>' +
+        '<span class="stage-t">' + st.t + '</span>' +
+        '<span class="stage-when">' + st.when + '</span>' +
+        '<span class="stage-prog"><span class="prog-track"><span class="prog-fill"></span></span>' +
+        '<span class="prog-txt">0 / ' + st.tasks.length + '</span></span>';
+      box.appendChild(head);
+
+      st.tasks.forEach(function(t, ti){
+        var id = st.n + '-' + ti;
+        var row = document.createElement('label'); row.className = 'task';
+        row.innerHTML = '<input type="checkbox" ' + (store[id] ? 'checked' : '') + '>' +
+          '<span class="task-body"><span class="task-t">' + t.t + '</span>' +
+          '<span class="task-why">' + t.why + '</span></span>' +
+          (t.gain ? '<span class="task-gain">' + t.gain + '</span>' : '');
+        if (store[id]) row.classList.add('done');
+        row.querySelector('input').addEventListener('change', function(){
+          store[id] = this.checked; row.classList.toggle('done', this.checked); save(); tick();
+        });
+        box.appendChild(row);
+      });
+
+      function tick(){
+        var done = st.tasks.filter(function(_, ti){ return store[st.n + '-' + ti]; }).length;
+        head.querySelector('.prog-fill').style.width = (100 * done / st.tasks.length) + '%';
+        head.querySelector('.prog-txt').textContent = done + ' / ' + st.tasks.length;
+      }
+      root.appendChild(box); tick();
+    });
+  }
+
+  /* ── counters & reveal ───────────────────── */
+  function counters(){
+    [].forEach.call(document.querySelectorAll('[data-count]'), function(n){
+      var target = parseFloat(n.dataset.count), pre = n.dataset.prefix || '';
+      if (reduce){ n.textContent = pre + fmt(target); return; }
+      var seen = false;
+      new IntersectionObserver(function(en, ob){
+        if (!en[0].isIntersecting || seen) return;
+        seen = true; ob.disconnect();
+        var t0 = performance.now(), dur = 1400;
+        (function step(t){
+          var p = Math.min((t - t0) / dur, 1);
+          var e = 1 - Math.pow(1 - p, 3);
+          n.textContent = pre + fmt(target * e);
+          if (p < 1) requestAnimationFrame(step);
+        })(t0);
+      }, { threshold: .4 }).observe(n);
+    });
+  }
+  function reveals(){
+    var io = new IntersectionObserver(function(en){
+      en.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: .12, rootMargin: '0px 0px -40px' });
+    [].forEach.call(document.querySelectorAll('.reveal'), function(n, i){
+      if (reduce){ n.classList.add('in'); return; }
+      n.style.transitionDelay = Math.min(i % 4, 3) * 70 + 'ms';
+      io.observe(n);
+    });
+  }
+  function railAndNav(){
+    var bar = document.querySelector('#rail span');
+    var links = [].slice.call(document.querySelectorAll('.nav-in a'));
+    var secs = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+    function on(){
+      var h = document.documentElement;
+      bar.style.width = (100 * h.scrollTop / (h.scrollHeight - h.clientHeight)) + '%';
+      var y = h.scrollTop + 130, cur = -1;
+      secs.forEach(function(s, i){ if (s && s.offsetTop <= y) cur = i; });
+      links.forEach(function(a, i){ a.classList.toggle('on', i === cur); });
+    }
+    document.addEventListener('scroll', on, { passive: true }); on();
+  }
+
+  drawWeek(); drawLoss(); drawAdsets(); fillTable();
+  drawMonths(); drawManagers(); drawPlacements(); drawPotential();
+  buildChecklist(); counters(); reveals(); railAndNav();
+
+  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+  var redraw = function(){ drawWeek(); drawLoss(); drawAdsets(); drawMonths(); drawManagers(); drawPlacements(); drawPotential(); };
+  if (mq.addEventListener) mq.addEventListener('change', redraw);
+  new MutationObserver(redraw).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+})();
+</script>
+</body>
+</html>
